@@ -12,6 +12,12 @@ settings:
   connect_timeout: 5
   read_timeout: 8
   max_workers: 16
+  # Throughput test: download part of a real segment and require this much
+  # headroom over the stream's realtime bitrate before accepting a stream
+  # when a faster alternative candidate exists.
+  speed_test: true
+  min_speed_ratio: 1.5
+  speed_max_bytes: 3000000
 
 sources:
   - name: iptv-org India
@@ -19,7 +25,7 @@ sources:
   - name: iptv-org Hindi
     url: "https://iptv-org.github.io/iptv/languages/hin.m3u"
 
-groups_order: [Serials, Movies, News, Bhakti, Lifestyle]
+groups_order: [Serials, Movies, Sports, News, Bhakti, Lifestyle]
 
 channels:
   # ---------- Serials / General Entertainment (100s) ----------
@@ -150,6 +156,62 @@ channels:
     name: Sony Wah
     group: Movies
     match: ["SonyWah.in@*"]
+
+  - number: 214
+    name: Star Gold Romance
+    group: Movies
+    match: ["StarGoldRomance.in@*"]
+  - number: 215
+    name: Star Gold Thrills
+    group: Movies
+    match: ["StarGoldThrills.in@*"]
+  - number: 216
+    name: Star Gold Select
+    group: Movies
+    match: ["StarGoldSelect.in@HD", "StarGoldSelect.in@*"]
+  - number: 217
+    name: Zee Classic
+    group: Movies
+    match: ["ZeeClassic.in@*", "ZeeCineClassic.in@*"]
+  - number: 218
+    name: B4U Kadak
+    group: Movies
+    match: ["B4UKadak.in@*"]
+  - number: 219
+    name: Star Movies
+    group: Movies
+    match: ["StarMovies.in@HD", "StarMovies.in@*"]
+  - number: 220
+    name: Sony Pix
+    group: Movies
+    match: ["SonyPix.in@HD", "SonyPix.in@*"]
+
+  # ---------- Sports (600s) ----------
+  - number: 601
+    name: Star Sports 1 Hindi
+    group: Sports
+    voice: true
+    match: ["StarSports1Hindi.in@HD", "StarSports1Hindi.in@SD"]
+  - number: 602
+    name: Star Sports 1
+    group: Sports
+    match: ["StarSports1.in@HD", "StarSports1.in@SD"]
+  - number: 603
+    name: Star Sports 2
+    group: Sports
+    match: ["StarSports2Hindi.in@HD", "StarSports2.in@HD"]
+  - number: 604
+    name: Sony Sports Ten 3
+    group: Sports
+    match: ["SonySportsTen3Hindi.in@*"]
+  - number: 605
+    name: DD Sports
+    group: Sports
+    match: ["DDSports.in@*"]
+  - number: 606
+    name: Star Sports Select 1
+    group: Sports
+    match: ["StarSportsSelect1.in@HD"]
 
   # ---------- News (300s) ----------
   - number: 301

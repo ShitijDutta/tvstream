@@ -20,7 +20,9 @@ import datetime
 import fnmatch
 import re
 import sys
+import time
 from dataclasses import dataclass, field
+from urllib.parse import urljoin
 
 import requests
 import yaml
@@ -46,6 +48,7 @@ class Pick:
     entry: SourceEntry
     verdict: str
     detail: str = ""
+    ratio: float = None  # download speed / realtime bitrate, if measured
 
 
 def parse_m3u(text, source_name):
@@ -140,6 +143,75 @@ def check_stream(entry, settings):
         return DEAD, type(exc).__name__
 
 
+def resolve_media_playlist(url, headers, timeout, depth=0):
+    """Follow an HLS master playlist to its first media playlist."""
+    text = requests.get(url, headers=headers, timeout=timeout).text
+    lines = [l.strip() for l in text.splitlines() if l.strip()]
+    if depth < 2 and any(l.startswith("#EXT-X-STREAM-INF") for l in lines):
+        for i, line in enumerate(lines):
+            if line.startswith("#EXT-X-STREAM-INF") and i + 1 < len(lines):
+                return resolve_media_playlist(
+                    urljoin(url, lines[i + 1]), headers, timeout, depth + 1)
+    return url, lines
+
+
+def measure_speed(entry, settings):
+    """Download (part of) the newest segment; return (dl_mbps, need_mbps) or None."""
+    if not entry.url.split("?")[0].endswith((".m3u8", ".m3u")):
+        return None
+    headers = stream_headers(entry, settings["user_agent"])
+    timeout = (settings["connect_timeout"], settings["read_timeout"])
+    try:
+        media_url, lines = resolve_media_playlist(entry.url, headers, timeout)
+        seg_url = seg_dur = None
+        for i, line in enumerate(lines):
+            if line.startswith("#EXTINF"):
+                m = re.match(r"#EXTINF:([\d.]+)", line)
+                for nxt in lines[i + 1:]:
+                    if not nxt.startswith("#"):
+                        seg_url, seg_dur = urljoin(media_url, nxt), float(m.group(1)) if m else None
+                        break
+        if not seg_url or not seg_dur:
+            return None
+        start = time.monotonic()
+        resp = requests.get(seg_url, headers=headers, timeout=timeout, stream=True)
+        total = int(resp.headers.get("Content-Length") or 0)
+        got = 0
+        for part in resp.iter_content(chunk_size=65536):
+            got += len(part)
+            if got >= settings["speed_max_bytes"] or time.monotonic() - start > settings["read_timeout"]:
+                break
+        resp.close()
+        elapsed = time.monotonic() - start
+        if not got or elapsed <= 0:
+            return None
+        dl_mbps = got * 8 / elapsed / 1e6
+        need_mbps = (total or got) * 8 / seg_dur / 1e6
+        return dl_mbps, need_mbps
+    except requests.RequestException:
+        return None
+
+
+def speed_detail(speed):
+    if not speed or not speed[1]:
+        return "speed n/a"
+    return f"{speed[0]:.1f} Mbps, {speed[0] / speed[1]:.1f}x realtime"
+
+
+def pick_fastest(alive, settings):
+    """Prefer the first candidate with enough headroom; else the fastest measured."""
+    scored = []
+    for cand in alive[:3]:  # cap measurement cost per channel
+        speed = measure_speed(cand, settings)
+        ratio = (speed[0] / speed[1]) if speed and speed[1] else None
+        scored.append((cand, speed, ratio))
+        if ratio is not None and ratio >= settings["min_speed_ratio"]:
+            break  # preference order already ranks quality; good enough wins
+    measured = [s for s in scored if s[2] is not None]
+    cand, speed, ratio = max(measured, key=lambda s: s[2]) if measured else scored[0]
+    return Pick(cand, ALIVE, speed_detail(speed), ratio=ratio)
+
+
 def pick_stream(channel, entries, settings, executor):
     cands = candidates_for(channel, entries)
     if not cands:
@@ -151,11 +223,15 @@ def pick_stream(channel, entries, settings, executor):
             verdicts[cand.url] = fut.result()
         except Exception as exc:  # never let one stream kill the run
             verdicts[cand.url] = (DEAD, type(exc).__name__)
-    for wanted in (ALIVE, GEO_BLOCKED):
-        for cand in cands:  # cands is already in preference order
-            verdict, detail = verdicts[cand.url]
-            if verdict == wanted:
-                return Pick(cand, verdict, detail)
+    alive = [c for c in cands if verdicts[c.url][0] == ALIVE]  # preference order
+    if alive:
+        if settings.get("speed_test"):
+            return pick_fastest(alive, settings)
+        return Pick(alive[0], ALIVE, verdicts[alive[0].url][1])
+    for cand in cands:
+        verdict, detail = verdicts[cand.url]
+        if verdict == GEO_BLOCKED:
+            return Pick(cand, GEO_BLOCKED, detail)
     verdict, detail = verdicts[cands[0].url]
     return Pick(cands[0], DEAD, detail)
 
@@ -245,7 +321,7 @@ def main():
             for channel in cfg["channels"]:
                 pick = pick_stream(channel, entries, settings, executor)
                 picks.append((channel, pick))
-                label = pick.verdict if pick else "NO MATCH"
+                label = f"{pick.verdict} ({pick.detail})" if pick else "NO MATCH"
                 print(f'  {channel["number"]:>4} {channel["name"]:<22} {label}')
 
     emit_playlist(picks, cfg, args.out)
