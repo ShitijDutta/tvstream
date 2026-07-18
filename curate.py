@@ -254,7 +254,10 @@ def emit_playlist(picks, cfg, path):
         if e.attrs.get("http-referrer"):
             attrs.append(f'http-referrer="{e.attrs["http-referrer"]}"')
         attrs.append(f'group-title="{channel["group"]}"')
-        lines.append(f'#EXTINF:-1 {" ".join(attrs)},{channel["name"]}')
+        # Mark channels whose best-known stream failed the last check, so the
+        # on-TV channel list itself shows what is likely down right now.
+        display = channel["name"] if pick.verdict != DEAD else f'{channel["name"]} •down'
+        lines.append(f'#EXTINF:-1 {" ".join(attrs)},{display}')
         lines.extend(e.extra_lines)
         lines.append(e.url)
     with open(path, "w", encoding="utf-8", newline="\n") as fh:

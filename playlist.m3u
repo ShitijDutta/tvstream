@@ -1,27 +1,27 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz"
 #EXTINF:-1 tvg-id="StarPlus.in@SD" tvg-chno="101" tvg-name="Star Plus" tvg-logo="https://i.imgur.com/xWxNy3L.png" group-title="Serials",Star Plus
 http://41.205.77.102/STAR-PLUS/index.m3u8
-#EXTINF:-1 tvg-id="Colors.in@HD" tvg-chno="102" tvg-name="Colors" tvg-logo="https://i.imgur.com/M8uCJ0D.png" group-title="Serials",Colors
+#EXTINF:-1 tvg-id="Colors.in@HD" tvg-chno="102" tvg-name="Colors" tvg-logo="https://i.imgur.com/M8uCJ0D.png" group-title="Serials",Colors •down
 http://149.71.34.166:8000/play/a00c/index.m3u8
 #EXTINF:-1 tvg-id="ZeeTV.in@HD" tvg-chno="103" tvg-name="Zee TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TV/images/LOGO_HD/LOGO_HD_image.png" group-title="Serials",Zee TV
 http://41.205.77.102/ZEE-TV/index.m3u8
-#EXTINF:-1 tvg-id="SonyEntertainmentTelevision.in@HD" tvg-chno="104" tvg-name="Sony TV" tvg-logo="https://dtil.tmsimg.com/assets/s159096_ld_h15_aa.png?lock=720x540" group-title="Serials",Sony TV
+#EXTINF:-1 tvg-id="SonyEntertainmentTelevision.in@HD" tvg-chno="104" tvg-name="Sony TV" tvg-logo="https://dtil.tmsimg.com/assets/s159096_ld_h15_aa.png?lock=720x540" group-title="Serials",Sony TV •down
 http://stb-air.wasmer.app/play.php?id=LIVETV_LIVETVCHANNEL_SET_HD&pass=krish-ka&uid=gana-sunega
 #EXTINF:-1 tvg-id="StarBharat.in@SD" tvg-chno="105" tvg-name="Star Bharat" tvg-logo="https://i.imgur.com/Q8ajPij.png" group-title="Serials",Star Bharat
 http://103.253.18.58:8000/play/a00u
-#EXTINF:-1 tvg-id="AndTV.in@HD" tvg-chno="106" tvg-name="And TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDTV/images/LOGO_HD/LOGO_HD_image.png" group-title="Serials",And TV
+#EXTINF:-1 tvg-id="AndTV.in@HD" tvg-chno="106" tvg-name="And TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDTV/images/LOGO_HD/LOGO_HD_image.png" group-title="Serials",And TV •down
 https://trs1.aynaott.com/andtvhd/index.m3u8
-#EXTINF:-1 tvg-id="DangalTV.in@SD" tvg-chno="107" tvg-name="Dangal" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DANGAL/images/LOGO_HD/image.png" group-title="Serials",Dangal
+#EXTINF:-1 tvg-id="DangalTV.in@SD" tvg-chno="107" tvg-name="Dangal" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DANGAL/images/LOGO_HD/image.png" group-title="Serials",Dangal •down
 http://103.213.31.109:90/Dangal/playlist.m3u8
-#EXTINF:-1 tvg-id="Dangal2.in@SD" tvg-chno="108" tvg-name="Dangal 2" tvg-logo="https://i.imgur.com/BEr1r7L.png" group-title="Serials",Dangal 2
+#EXTINF:-1 tvg-id="Dangal2.in@SD" tvg-chno="108" tvg-name="Dangal 2" tvg-logo="https://i.imgur.com/BEr1r7L.png" group-title="Serials",Dangal 2 •down
 http://103.213.31.109:90/Dangal2/playlist.m3u8
 #EXTINF:-1 tvg-id="BigMagic.in@SD" tvg-chno="109" tvg-name="Big Magic" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002YJ850.png?lock=720x540" group-title="Serials",Big Magic
 https://mumt05.tangotv.in/87NeALx2BIGMAGIC/index.m3u8
 #EXTINF:-1 tvg-id="ShemarooTV.in@SD" tvg-chno="110" tvg-name="Shemaroo TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHEMAROO_TV/images/LOGO_HD/image.png" group-title="Serials",Shemaroo TV
 https://airtelapp.shemaroo.com/shemarootv/smil:shemarootvadp.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="ShemarooUmang.in@SD" tvg-chno="111" tvg-name="Shemaroo Umang" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHEMAROO_UMANG/images/LOGO_HD/image.png" group-title="Serials",Shemaroo Umang
+#EXTINF:-1 tvg-id="ShemarooUmang.in@SD" tvg-chno="111" tvg-name="Shemaroo Umang" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHEMAROO_UMANG/images/LOGO_HD/image.png" group-title="Serials",Shemaroo Umang •down
 http://103.213.31.109:90/ShemarooUmang/playlist.m3u8
-#EXTINF:-1 tvg-id="ManoranjanTV.in@SD" tvg-chno="112" tvg-name="Manoranjan TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MANORANJAN_TV/images/LOGO_HD/image.png" group-title="Serials",Manoranjan TV
+#EXTINF:-1 tvg-id="ManoranjanTV.in@SD" tvg-chno="112" tvg-name="Manoranjan TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MANORANJAN_TV/images/LOGO_HD/image.png" group-title="Serials",Manoranjan TV •down
 http://103.213.31.109:90/ManoranjanTv/playlist.m3u8
 #EXTINF:-1 tvg-id="AnmolTV.in@SD" tvg-chno="113" tvg-name="Anmol TV" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00260HWS.png?lock=720x540" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" group-title="Serials",Anmol TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
@@ -34,31 +34,31 @@ https://cc-czbq30x55knit.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da6
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/40492a64c1db4a1385ba1a397d357d3a/index.m3u8
 #EXTINF:-1 tvg-id="ZeeCinema.in@UK" tvg-chno="201" tvg-name="Zee Cinema" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CINEMA/images/LOGO_HD/LOGO_HD_image.png" group-title="Movies",Zee Cinema
 http://41.223.30.230/ZEECINEMA/index.m3u8
-#EXTINF:-1 tvg-id="SonyMax2.in@SD" tvg-chno="202" tvg-name="Sony Max 2" tvg-logo="https://i.imgur.com/gqUYk6C.png" group-title="Movies",Sony Max 2
+#EXTINF:-1 tvg-id="SonyMax2.in@SD" tvg-chno="202" tvg-name="Sony Max 2" tvg-logo="https://i.imgur.com/gqUYk6C.png" group-title="Movies",Sony Max 2 •down
 http://149.71.34.166:8000/play/a00z/index.m3u8
 #EXTINF:-1 tvg-id="StarGold2.in@SD" tvg-chno="203" tvg-name="Star Gold 2" tvg-logo="https://i.imgur.com/G0ZfzZr.png" group-title="Movies",Star Gold 2
 http://103.253.18.58:8000/play/a00r
-#EXTINF:-1 tvg-id="StarUtsavMovies.in@SD" tvg-chno="204" tvg-name="Star Utsav Movies" tvg-logo="https://i.imgur.com/k5QHfH2.png" group-title="Movies",Star Utsav Movies
+#EXTINF:-1 tvg-id="StarUtsavMovies.in@SD" tvg-chno="204" tvg-name="Star Utsav Movies" tvg-logo="https://i.imgur.com/k5QHfH2.png" group-title="Movies",Star Utsav Movies •down
 http://149.71.34.166:8000/play/a059/index.m3u8
-#EXTINF:-1 tvg-id="Goldmines.in@SD" tvg-chno="205" tvg-name="Goldmines" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOLDMINES/images/LOGO_HD/image.png" group-title="Movies",Goldmines
+#EXTINF:-1 tvg-id="Goldmines.in@SD" tvg-chno="205" tvg-name="Goldmines" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOLDMINES/images/LOGO_HD/image.png" group-title="Movies",Goldmines •down
 https://trs1.aynaott.com/Goldmines/index.m3u8
 #EXTINF:-1 tvg-id="GoldminesBollywood.in@SD" tvg-chno="206" tvg-name="Goldmines Bollywood" tvg-logo="https://i.imgur.com/6mNQ9mM.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" group-title="Movies",Goldmines Bollywood
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 http://103.175.73.12:8080/live/52/52_0.m3u8
 #EXTINF:-1 tvg-id="B4UMovies.in@India" tvg-chno="207" tvg-name="B4U Movies" tvg-logo="https://i.imgur.com/M9kMFJl.png" group-title="Movies",B4U Movies
 https://amg00877-b4unew-amg00877c2-lg-in-5260.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="ZeeBollywood.in@SD" tvg-chno="208" tvg-name="Zee Bollywood" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022T6DM.png?lock=720x540" group-title="Movies",Zee Bollywood
+#EXTINF:-1 tvg-id="ZeeBollywood.in@SD" tvg-chno="208" tvg-name="Zee Bollywood" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022T6DM.png?lock=720x540" group-title="Movies",Zee Bollywood •down
 http://149.71.34.166:8000/play/a01q/index.m3u8
-#EXTINF:-1 tvg-id="ColorsCineplex.in@HD" tvg-chno="209" tvg-name="Colors Cineplex" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_CINEPLEX_HD/images/LOGO_HD/image.png" group-title="Movies",Colors Cineplex
+#EXTINF:-1 tvg-id="ColorsCineplex.in@HD" tvg-chno="209" tvg-name="Colors Cineplex" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_CINEPLEX_HD/images/LOGO_HD/image.png" group-title="Movies",Colors Cineplex •down
 http://149.71.34.166:8000/play/a00b/index.m3u8
-#EXTINF:-1 tvg-id="ZeeAction.in@SD" tvg-chno="210" tvg-name="Zee Action" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022K5ZV.png?lock=720x540" group-title="Movies",Zee Action
+#EXTINF:-1 tvg-id="ZeeAction.in@SD" tvg-chno="210" tvg-name="Zee Action" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022K5ZV.png?lock=720x540" group-title="Movies",Zee Action •down
 http://103.72.101.252:8080/live/488.m3u8
 #EXTINF:-1 tvg-id="ManoranjanGrand.in@SD" tvg-chno="211" tvg-name="Manoranjan Grand" tvg-logo="https://dtil.tmsimg.com/assets/s143302_ld_h15_aa.png?lock=720x540" group-title="Movies",Manoranjan Grand
 https://cdn-1.pishow.tv/live/1011/master.m3u8
 #EXTINF:-1 tvg-id="AnmolCinema.in@SD" tvg-chno="212" tvg-name="Anmol Cinema" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00260YG8.png?lock=720x540" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" group-title="Movies",Anmol Cinema
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 http://103.175.73.12:8080/live/271/271_0.m3u8
-#EXTINF:-1 tvg-id="SonyWah.in@SD" tvg-chno="213" tvg-name="Sony Wah" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_WAH/images/LOGO_HD/image.png" group-title="Movies",Sony Wah
+#EXTINF:-1 tvg-id="SonyWah.in@SD" tvg-chno="213" tvg-name="Sony Wah" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_WAH/images/LOGO_HD/image.png" group-title="Movies",Sony Wah •down
 https://sl.vodep39240327.workers.dev/channel/SONY+WAH.m3u8
 #EXTINF:-1 tvg-id="StarGoldRomance.in@SD" tvg-chno="214" tvg-name="Star Gold Romance" tvg-logo="https://i.imgur.com/gSWv9U3.png" group-title="Movies",Star Gold Romance
 http://103.253.18.58:8000/play/a017
@@ -70,11 +70,11 @@ http://103.157.248.140:8000/play/a00b/index.m3u8
 http://103.253.18.58:8000/play/a02u
 #EXTINF:-1 tvg-id="ZeeCineClassic.in@SD" tvg-chno="217" tvg-name="Zee Classic" tvg-logo="https://i.imgur.com/QCRhS1n.png" group-title="Movies",Zee Classic
 https://amg00862-amg00862c8-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c8-amgplt0173/playlist.m3u8
-#EXTINF:-1 tvg-id="B4UKadak.in@SD" tvg-chno="218" tvg-name="B4U Kadak" tvg-logo="https://dtil.tmsimg.com/assets/s142695_ld_h15_aa.png?lock=720x540" group-title="Movies",B4U Kadak
+#EXTINF:-1 tvg-id="B4UKadak.in@SD" tvg-chno="218" tvg-name="B4U Kadak" tvg-logo="https://dtil.tmsimg.com/assets/s142695_ld_h15_aa.png?lock=720x540" group-title="Movies",B4U Kadak •down
 https://cdnb4u.wiseplayout.com/B4U_Kadak/master.m3u8
-#EXTINF:-1 tvg-id="StarMovies.in@HD" tvg-chno="219" tvg-name="Star Movies" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_MOVIES/images/LOGO_HD/image.png" group-title="Movies",Star Movies
+#EXTINF:-1 tvg-id="StarMovies.in@HD" tvg-chno="219" tvg-name="Star Movies" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_MOVIES/images/LOGO_HD/image.png" group-title="Movies",Star Movies •down
 http://149.71.34.166:8000/play/a01f/index.m3u8
-#EXTINF:-1 tvg-id="SonyPix.in@HD" tvg-chno="220" tvg-name="Sony Pix" tvg-logo="https://i.postimg.cc/Z5G8j67L/PIX-HD-WHITE.png" group-title="Movies",Sony Pix
+#EXTINF:-1 tvg-id="SonyPix.in@HD" tvg-chno="220" tvg-name="Sony Pix" tvg-logo="https://i.postimg.cc/Z5G8j67L/PIX-HD-WHITE.png" group-title="Movies",Sony Pix •down
 https://sl.vodep39240327.workers.dev/channel/SONY+PIX+HD.m3u8
 #EXTINF:-1 tvg-id="StarSports1Hindi.in@HD" tvg-chno="601" tvg-name="Star Sports 1 Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_SPORTS_1_HD_HINDI/images/LOGO_HD/image.png" group-title="Sports",Star Sports 1 Hindi
 http://103.253.18.58:8000/play/a00t
@@ -82,11 +82,11 @@ http://103.253.18.58:8000/play/a00t
 http://103.253.18.58:8000/play/a00m
 #EXTINF:-1 tvg-id="StarSports2Hindi.in@HD" tvg-chno="603" tvg-name="Star Sports 2" tvg-logo="https://i.imgur.com/kHerF19.png" group-title="Sports",Star Sports 2
 http://103.157.248.140:8000/play/a01m/index.m3u8
-#EXTINF:-1 tvg-id="SonySportsTen3Hindi.in@SD" tvg-chno="604" tvg-name="Sony Sports Ten 3" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025TCMR.png?lock=720x540" group-title="Sports",Sony Sports Ten 3
+#EXTINF:-1 tvg-id="SonySportsTen3Hindi.in@SD" tvg-chno="604" tvg-name="Sony Sports Ten 3" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025TCMR.png?lock=720x540" group-title="Sports",Sony Sports Ten 3 •down
 http://103.229.254.25:7001/play/a09q/index.m3u8
 #EXTINF:-1 tvg-id="DDSports.in@SD" tvg-chno="605" tvg-name="DD Sports" tvg-logo="https://dtil.tmsimg.com/assets/s158255_ld_h15_aa.png?lock=720x540" group-title="Sports",DD Sports
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
-#EXTINF:-1 tvg-id="StarSportsSelect1.in@HD" tvg-chno="606" tvg-name="Star Sports Select 1" tvg-logo="https://i.imgur.com/Mh9tKPx.png" group-title="Sports",Star Sports Select 1
+#EXTINF:-1 tvg-id="StarSportsSelect1.in@HD" tvg-chno="606" tvg-name="Star Sports Select 1" tvg-logo="https://i.imgur.com/Mh9tKPx.png" group-title="Sports",Star Sports Select 1 •down
 http://tvsen7.aynascope.net/sspts1/index.m3u8
 #EXTINF:-1 tvg-id="AajTak.in@HD" tvg-chno="301" tvg-name="Aaj Tak" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_AAJ_TAK/images/LOGO_HD/image.png" group-title="News",Aaj Tak
 https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8
@@ -94,7 +94,7 @@ https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8
 https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-472500/abpnews/master.m3u8
 #EXTINF:-1 tvg-id="IndiaTV.in@SD" tvg-chno="303" tvg-name="India TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_INDIA_TV/images/LOGO_HD/image.png" group-title="News",India TV
 https://pl-indiatvnews.akamaized.net/out/v1/db79179b608641ceaa5a4d0dd0dca8da/index.m3u8
-#EXTINF:-1 tvg-id="NDTVIndia.in@SD" tvg-chno="304" tvg-name="NDTV India" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NDTV_INDIA/images/LOGO_HD/image.png" group-title="News",NDTV India
+#EXTINF:-1 tvg-id="NDTVIndia.in@SD" tvg-chno="304" tvg-name="NDTV India" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NDTV_INDIA/images/LOGO_HD/image.png" group-title="News",NDTV India •down
 http://103.213.31.109:90/StarUtsavMovies/playlist.m3u8
 #EXTINF:-1 tvg-id="ZeeNews.in@SD" tvg-chno="305" tvg-name="Zee News" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0023VWYC.png?lock=720x540" group-title="News",Zee News
 https://dknttpxmr0dwf.cloudfront.net/index_57.m3u8
@@ -108,7 +108,7 @@ https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-293160/master.m3u8
 https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9hinjzgtpe/liveabr/playlist.m3u8
 #EXTINF:-1 tvg-id="DDNews.in@HD" tvg-chno="310" tvg-name="DD News" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/DD%20News%20HD.png" group-title="News",DD News
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/0811cd8c37ca4c409d5385a6cd2fa18b/index.m3u8
-#EXTINF:-1 tvg-id="Aastha.in@SD" tvg-chno="401" tvg-name="Aastha" tvg-logo="https://i.imgur.com/IqgrV92.png" group-title="Bhakti",Aastha
+#EXTINF:-1 tvg-id="Aastha.in@SD" tvg-chno="401" tvg-name="Aastha" tvg-logo="https://i.imgur.com/IqgrV92.png" group-title="Bhakti",Aastha •down
 http://103.213.31.109:90/AasthaSD/playlist.m3u8
 #EXTINF:-1 tvg-id="AasthaBhajan.in@SD" tvg-chno="402" tvg-name="Aastha Bhajan" tvg-logo="https://dtil.tmsimg.com/assets/s142514_ld_h15_aa.png?lock=720x540" group-title="Bhakti",Aastha Bhajan
 https://mumt05.tangotv.in/87NeALx2AASTHABHAJAN/index.m3u8
@@ -118,9 +118,9 @@ https://d26idhjf0y1p2g.cloudfront.net/out/v1/cd66dd25b9774cb29943bab54bbf3e2f/in
 https://aasthaott.akamaized.net/110923/smil:aasthaprime1.smil/master.m3u8
 #EXTINF:-1 tvg-id="FoodFood.in@SD" tvg-chno="501" tvg-name="Food Food" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Food_Food.png" group-title="Lifestyle",Food Food
 https://mumt03.tangotv.in/Dsly5z3HFOODFOOD/index.m3u8
-#EXTINF:-1 tvg-id="ShemarooFilmiGaane.in@HD" tvg-chno="502" tvg-name="Shemaroo Filmi Gaane" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/channel/0d5b07555b2d4415aa9f145273095ed7.png" group-title="Lifestyle",Shemaroo Filmi Gaane
+#EXTINF:-1 tvg-id="ShemarooFilmiGaane.in@HD" tvg-chno="502" tvg-name="Shemaroo Filmi Gaane" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/channel/0d5b07555b2d4415aa9f145273095ed7.png" group-title="Lifestyle",Shemaroo Filmi Gaane •down
 http://103.213.31.109:90/ShemarooFilmiGaane/playlist.m3u8
 #EXTINF:-1 tvg-id="B4UMusic.in@India" tvg-chno="503" tvg-name="B4U Music" tvg-logo="https://dtil.tmsimg.com/assets/s158141_ld_h15_aa.png?lock=720x540" group-title="Lifestyle",B4U Music
 https://cdn-2.pishow.tv/live/415/master.m3u8
-#EXTINF:-1 tvg-id="ZeeZest.in@HD" tvg-chno="504" tvg-name="Zee Zest" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_ZEST/images/LOGO_HD/LOGO_HD_image.png" group-title="Lifestyle",Zee Zest
+#EXTINF:-1 tvg-id="ZeeZest.in@HD" tvg-chno="504" tvg-name="Zee Zest" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_ZEST/images/LOGO_HD/LOGO_HD_image.png" group-title="Lifestyle",Zee Zest •down
 http://103.72.101.252:8080/live/2757.m3u8
