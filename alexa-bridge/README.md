@@ -1,7 +1,7 @@
 # Alexa bridge
 
 Lets the Echo Dot tune the TV: **"Alexa, turn on Star Plus"** → this bridge
-sends the channel number to OTT Navigator on the box over ADB.
+sends the channel number to the IPTV player on the box over ADB.
 
 How it works: [fauxmo](https://github.com/n8henrie/fauxmo) emulates WeMo smart
 plugs on the LAN — one per channel marked `voice: true` in `channels.yaml`.
@@ -20,7 +20,8 @@ which sends digit keypresses to the box via ADB.
    ```
    (If `adb` is not on PATH afterwards, put the full path to `adb.exe` in
    `bridge_config.json` → `adb_path`.)
-4. Test ADB + tuning directly (TV on, OTT Navigator installed):
+4. Test ADB + tuning directly (TV on, the IPTV player from
+   `bridge_config.json` → `player_package` installed):
    ```
    python tuner.py 101
    ```

@@ -10,7 +10,7 @@ GitHub Actions (every 6h)
   └─ curate.py: fetch public playlists → keep our channels → health-check
      → playlist.m3u (stable raw URL) + status.md (health report)
 
-TV box: OTT Navigator app subscribes to the playlist URL + EPG
+TV box: Televizo (or OTT Navigator) subscribes to the playlist URL + EPG
 Echo Dot (optional): "Alexa, Star Plus chalao" → alexa-bridge → ADB → tunes channel
 ```
 
@@ -21,7 +21,7 @@ Echo Dot (optional): "Alexa, Star Plus chalao" → alexa-bridge → ADB → tune
 | `channels.yaml` | The lineup: channel numbers, names, match patterns, groups |
 | `curate.py` | Builds `playlist.m3u` + `status.md` from public sources |
 | `.github/workflows/refresh.yml` | Re-runs the curator every 6 hours |
-| `docs/box-setup.md` | OTT Navigator setup on the TV box |
+| `docs/box-setup.md` | Player app (Televizo) setup on the TV box |
 | `alexa-bridge/` | Echo Dot voice control (runs on a PC on the same network) |
 
 ## Setup

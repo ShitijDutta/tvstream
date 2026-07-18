@@ -39,8 +39,8 @@ def tune(number):
     cfg = load_config()
     connect(cfg)
     adb(cfg, "shell", "input", "keyevent", str(KEYCODE_WAKEUP), check=False)
-    # Bring OTT Navigator to the foreground (no-op if already there).
-    adb(cfg, "shell", "monkey", "-p", cfg["ott_navigator_package"],
+    # Bring the IPTV player to the foreground (no-op if already there).
+    adb(cfg, "shell", "monkey", "-p", cfg["player_package"],
         "-c", "android.intent.category.LAUNCHER", "1", check=False)
     time.sleep(cfg["launch_wait_seconds"])
     for digit in str(number):

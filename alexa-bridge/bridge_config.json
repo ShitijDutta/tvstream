@@ -2,6 +2,6 @@
   "box_ip": "192.168.1.50",
   "adb_path": "adb",
   "tuner_port": 8765,
-  "ott_navigator_package": "studio.scillarium.ottnavigator",
+  "player_package": "com.ottplay.ottplay",
   "launch_wait_seconds": 2.0
 }
