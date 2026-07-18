@@ -1,0 +1,233 @@
+# TVStream channel lineup
+# ------------------------
+# Each channel gets a fixed number (tvg-chno) so the lineup never shuffles.
+# `match` is an ordered list of glob patterns tested against the tvg-id of
+# entries in the source playlists — first pattern with a working stream wins,
+# so put the preferred quality first (e.g. HD before SD).
+# `voice: true` exposes the channel to the Alexa bridge as a voice device.
+
+settings:
+  epg_url: "https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz"
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  connect_timeout: 5
+  read_timeout: 8
+  max_workers: 16
+
+sources:
+  - name: iptv-org India
+    url: "https://iptv-org.github.io/iptv/countries/in.m3u"
+  - name: iptv-org Hindi
+    url: "https://iptv-org.github.io/iptv/languages/hin.m3u"
+
+groups_order: [Serials, Movies, News, Bhakti, Lifestyle]
+
+channels:
+  # ---------- Serials / General Entertainment (100s) ----------
+  - number: 101
+    name: Star Plus
+    group: Serials
+    voice: true
+    match: ["StarPlus.in@HD", "StarPlus.in@SD", "StarPlus.in@*"]
+  - number: 102
+    name: Colors
+    group: Serials
+    voice: true
+    match: ["Colors.in@HD", "Colors.in@SD", "Colors.in@*"]
+  - number: 103
+    name: Zee TV
+    group: Serials
+    voice: true
+    match: ["ZeeTV.in@HD", "ZeeTV.in@*"]
+  - number: 104
+    name: Sony TV
+    group: Serials
+    voice: true
+    match: ["SonyEntertainmentTelevision.in@HD", "SonyEntertainmentTelevision.in@*"]
+  - number: 105
+    name: Star Bharat
+    group: Serials
+    voice: true
+    match: ["StarBharat.in@*"]
+  - number: 106
+    name: And TV
+    group: Serials
+    match: ["AndTV.in@HD", "AndTV.in@*"]
+  - number: 107
+    name: Dangal
+    group: Serials
+    voice: true
+    match: ["DangalTV.in@*"]
+  - number: 108
+    name: Dangal 2
+    group: Serials
+    match: ["Dangal2.in@*"]
+  - number: 109
+    name: Big Magic
+    group: Serials
+    match: ["BigMagic.in@*"]
+  - number: 110
+    name: Shemaroo TV
+    group: Serials
+    voice: true
+    match: ["ShemarooTV.in@*"]
+  - number: 111
+    name: Shemaroo Umang
+    group: Serials
+    match: ["ShemarooUmang.in@*"]
+  - number: 112
+    name: Manoranjan TV
+    group: Serials
+    match: ["ManoranjanTV.in@*"]
+  - number: 113
+    name: Anmol TV
+    group: Serials
+    match: ["AnmolTV.in@*"]
+  - number: 114
+    name: Zee Dil Se
+    group: Serials
+    match: ["ZeeDilSe.in@*"]
+  - number: 115
+    name: Epic TV
+    group: Serials
+    match: ["EpicTV.in@Digital", "EpicTV.in@*"]
+  - number: 116
+    name: DD National
+    group: Serials
+    match: ["DDNational.in@HD", "DDNational.in@*"]
+
+  # ---------- Movies (200s) ----------
+  - number: 201
+    name: Zee Cinema
+    group: Movies
+    voice: true
+    match: ["ZeeCinema.in@HD", "ZeeCinema.in@*"]
+  - number: 202
+    name: Sony Max 2
+    group: Movies
+    match: ["SonyMax2.in@*"]
+  - number: 203
+    name: Star Gold 2
+    group: Movies
+    match: ["StarGold2.in@*"]
+  - number: 204
+    name: Star Utsav Movies
+    group: Movies
+    match: ["StarUtsavMovies.in@*"]
+  - number: 205
+    name: Goldmines
+    group: Movies
+    voice: true
+    match: ["Goldmines.in@*", "GoldminesMovies.in@*"]
+  - number: 206
+    name: Goldmines Bollywood
+    group: Movies
+    match: ["GoldminesBollywood.in@*"]
+  - number: 207
+    name: B4U Movies
+    group: Movies
+    match: ["B4UMovies.in@*"]
+  - number: 208
+    name: Zee Bollywood
+    group: Movies
+    match: ["ZeeBollywood.in@*"]
+  - number: 209
+    name: Colors Cineplex
+    group: Movies
+    match: ["ColorsCineplex.in@HD", "ColorsCineplex.in@SD", "ColorsCineplexBollywood.in@*"]
+  - number: 210
+    name: Zee Action
+    group: Movies
+    match: ["ZeeAction.in@*"]
+  - number: 211
+    name: Manoranjan Grand
+    group: Movies
+    match: ["ManoranjanGrand.in@*"]
+  - number: 212
+    name: Anmol Cinema
+    group: Movies
+    match: ["AnmolCinema.in@*", "AnmolCinema2.in@*"]
+  - number: 213
+    name: Sony Wah
+    group: Movies
+    match: ["SonyWah.in@*"]
+
+  # ---------- News (300s) ----------
+  - number: 301
+    name: Aaj Tak
+    group: News
+    voice: true
+    match: ["AajTak.in@HD", "AajTak.in@SD"]
+  - number: 302
+    name: ABP News
+    group: News
+    match: ["ABPNews.in@*"]
+  - number: 303
+    name: India TV
+    group: News
+    match: ["IndiaTV.in@*"]
+  - number: 304
+    name: NDTV India
+    group: News
+    match: ["NDTVIndia.in@*"]
+  - number: 305
+    name: Zee News
+    group: News
+    match: ["ZeeNews.in@*"]
+  - number: 306
+    name: News18 India
+    group: News
+    match: ["News18India.in@*"]
+  - number: 307
+    name: Republic Bharat
+    group: News
+    match: ["RepublicBharat.in@*"]
+  - number: 308
+    name: India Today
+    group: News
+    match: ["IndiaToday.in@*"]
+  - number: 309
+    name: TV9 Bharatvarsh
+    group: News
+    match: ["TV9Bharatvarsh.in@*"]
+  - number: 310
+    name: DD News
+    group: News
+    match: ["DDNews.in@HD", "DDNews.in@*"]
+
+  # ---------- Bhakti / Devotional (400s) ----------
+  - number: 401
+    name: Aastha
+    group: Bhakti
+    voice: true
+    match: ["Aastha.in@*"]
+  - number: 402
+    name: Aastha Bhajan
+    group: Bhakti
+    match: ["AasthaBhajan.in@*"]
+  - number: 403
+    name: Sanskar
+    group: Bhakti
+    voice: true
+    match: ["SanskarTV.in@*", "SanskarWebTV.in@*"]
+  - number: 404
+    name: Aastha Prime
+    group: Bhakti
+    match: ["AasthaPrime1.in@*"]
+
+  # ---------- Lifestyle / Music (500s) ----------
+  - number: 501
+    name: Food Food
+    group: Lifestyle
+    match: ["FoodFood.in@*"]
+  - number: 502
+    name: Shemaroo Filmi Gaane
+    group: Lifestyle
+    match: ["ShemarooFilmiGaane.in@*"]
+  - number: 503
+    name: B4U Music
+    group: Lifestyle
+    match: ["B4UMusic.in@*"]
+  - number: 504
+    name: Zee Zest
+    group: Lifestyle
+    match: ["ZeeZest.in@*"]
