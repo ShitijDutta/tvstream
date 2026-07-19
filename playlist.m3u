@@ -32,8 +32,8 @@ https://amg00862-amg00862c6-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-a
 https://cc-czbq30x55knit.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-czbq30x55knit/DIYC/PMSL/IN10/Epic_TV_IN_B/Epic_TV_IN_B.m3u8
 #EXTINF:-1 tvg-id="DDNational.in@HD" tvg-chno="116" tvg-name="DD National" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/DD%20National.png" group-title="Serials",DD National
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/40492a64c1db4a1385ba1a397d357d3a/index.m3u8
-#EXTINF:-1 tvg-id="ZeeCinema.in@ME" tvg-chno="201" tvg-name="Zee Cinema" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CINEMA/images/LOGO_HD/LOGO_HD_image.png" group-title="Movies",Zee Cinema
-http://41.205.77.102/ZEE-CINEMA/index.m3u8
+#EXTINF:-1 tvg-id="ZeeCinema.in@UK" tvg-chno="201" tvg-name="Zee Cinema" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CINEMA/images/LOGO_HD/LOGO_HD_image.png" group-title="Movies",Zee Cinema
+http://41.223.30.230/ZEECINEMA/index.m3u8
 #EXTINF:-1 tvg-id="SonyMax2.in@SD" tvg-chno="202" tvg-name="Sony Max 2" tvg-logo="https://i.imgur.com/gqUYk6C.png" group-title="Movies",Sony Max 2 •down
 http://149.71.34.166:8000/play/a00z/index.m3u8
 #EXTINF:-1 tvg-id="StarGold2.in@SD" tvg-chno="203" tvg-name="Star Gold 2" tvg-logo="https://i.imgur.com/G0ZfzZr.png" group-title="Movies",Star Gold 2
@@ -55,9 +55,9 @@ http://149.71.34.166:8000/play/a00b/index.m3u8
 http://103.72.101.252:8080/live/488.m3u8
 #EXTINF:-1 tvg-id="ManoranjanGrand.in@SD" tvg-chno="211" tvg-name="Manoranjan Grand" tvg-logo="https://dtil.tmsimg.com/assets/s143302_ld_h15_aa.png?lock=720x540" group-title="Movies",Manoranjan Grand
 https://cdn-1.pishow.tv/live/1011/master.m3u8
-#EXTINF:-1 tvg-id="AnmolCinema2.in@SD" tvg-chno="212" tvg-name="Anmol Cinema" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_ANMOL_CINEMA_2/images/LOGO_HD/LOGO_HD_image.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" group-title="Movies",Anmol Cinema
+#EXTINF:-1 tvg-id="AnmolCinema.in@SD" tvg-chno="212" tvg-name="Anmol Cinema" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00260YG8.png?lock=720x540" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" group-title="Movies",Anmol Cinema
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-http://103.175.73.12:8080/live/257/257_0.m3u8
+http://103.175.73.12:8080/live/271/271_0.m3u8
 #EXTINF:-1 tvg-id="SonyWah.in@SD" tvg-chno="213" tvg-name="Sony Wah" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_WAH/images/LOGO_HD/image.png" group-title="Movies",Sony Wah •down
 https://sl.vodep39240327.workers.dev/channel/SONY+WAH.m3u8
 #EXTINF:-1 tvg-id="StarGoldRomance.in@SD" tvg-chno="214" tvg-name="Star Gold Romance" tvg-logo="https://i.imgur.com/gSWv9U3.png" group-title="Movies",Star Gold Romance
