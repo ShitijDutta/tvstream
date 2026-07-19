@@ -1,9 +1,9 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz"
-#EXTINF:-1 tvg-id="StarPlus.in@SD" tvg-chno="101" tvg-name="Star Plus" tvg-logo="https://i.imgur.com/xWxNy3L.png" group-title="Serials",Star Plus
-http://41.205.77.102/STAR-PLUS/index.m3u8
+#EXTINF:-1 tvg-id="StarPlus.in@HD" tvg-chno="101" tvg-name="Star Plus" tvg-logo="https://i.imgur.com/xWxNy3L.png" group-title="Serials",Star Plus
+https://trs1.aynaott.com/starplushd/index.m3u8
 #EXTINF:-1 tvg-id="Colors.in@HD" tvg-chno="102" tvg-name="Colors" tvg-logo="https://i.imgur.com/M8uCJ0D.png" group-title="Serials",Colors •down
 http://149.71.34.166:8000/play/a00c/index.m3u8
-#EXTINF:-1 tvg-id="ZeeTV.in@HD" tvg-chno="103" tvg-name="Zee TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TV/images/LOGO_HD/LOGO_HD_image.png" group-title="Serials",Zee TV
+#EXTINF:-1 tvg-id="ZeeTV.in@HD" tvg-chno="103" tvg-name="Zee TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TV/images/LOGO_HD/LOGO_HD_image.png" group-title="Serials",Zee TV •down
 http://41.205.77.102/ZEE-TV/index.m3u8
 #EXTINF:-1 tvg-id="SonyEntertainmentTelevision.in@HD" tvg-chno="104" tvg-name="Sony TV" tvg-logo="https://dtil.tmsimg.com/assets/s159096_ld_h15_aa.png?lock=720x540" group-title="Serials",Sony TV •down
 http://stb-air.wasmer.app/play.php?id=LIVETV_LIVETVCHANNEL_SET_HD&pass=krish-ka&uid=gana-sunega
@@ -32,8 +32,8 @@ https://amg00862-amg00862c6-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-a
 https://cc-czbq30x55knit.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-czbq30x55knit/DIYC/PMSL/IN10/Epic_TV_IN_B/Epic_TV_IN_B.m3u8
 #EXTINF:-1 tvg-id="DDNational.in@HD" tvg-chno="116" tvg-name="DD National" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/DD%20National.png" group-title="Serials",DD National
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/40492a64c1db4a1385ba1a397d357d3a/index.m3u8
-#EXTINF:-1 tvg-id="ZeeCinema.in@UK" tvg-chno="201" tvg-name="Zee Cinema" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CINEMA/images/LOGO_HD/LOGO_HD_image.png" group-title="Movies",Zee Cinema
-http://41.223.30.230/ZEECINEMA/index.m3u8
+#EXTINF:-1 tvg-id="ZeeCinema.in@SD" tvg-chno="201" tvg-name="Zee Cinema" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CINEMA/images/LOGO_HD/LOGO_HD_image.png" group-title="Movies",Zee Cinema
+https://trs1.aynaott.com/ZeeCinemaHD/index.m3u8
 #EXTINF:-1 tvg-id="SonyMax2.in@SD" tvg-chno="202" tvg-name="Sony Max 2" tvg-logo="https://i.imgur.com/gqUYk6C.png" group-title="Movies",Sony Max 2 •down
 http://149.71.34.166:8000/play/a00z/index.m3u8
 #EXTINF:-1 tvg-id="StarGold2.in@SD" tvg-chno="203" tvg-name="Star Gold 2" tvg-logo="https://i.imgur.com/G0ZfzZr.png" group-title="Movies",Star Gold 2
@@ -114,7 +114,7 @@ http://103.213.31.109:90/AasthaSD/playlist.m3u8
 https://mumt05.tangotv.in/87NeALx2AASTHABHAJAN/index.m3u8
 #EXTINF:-1 tvg-id="SanskarTV.in@SD" tvg-chno="403" tvg-name="Sanskar" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SANSKAR/images/LOGO_HD/image.png" group-title="Bhakti",Sanskar
 https://d26idhjf0y1p2g.cloudfront.net/out/v1/cd66dd25b9774cb29943bab54bbf3e2f/index.m3u8
-#EXTINF:-1 tvg-id="AasthaPrime1.in@SD" tvg-chno="404" tvg-name="Aastha Prime" tvg-logo="https://i.imgur.com/LyWSMJS.png" group-title="Bhakti",Aastha Prime
+#EXTINF:-1 tvg-id="AasthaPrime1.in@SD" tvg-chno="404" tvg-name="Aastha Prime" tvg-logo="https://i.imgur.com/LyWSMJS.png" group-title="Bhakti",Aastha Prime •down
 https://aasthaott.akamaized.net/110923/smil:aasthaprime1.smil/master.m3u8
 #EXTINF:-1 tvg-id="FoodFood.in@SD" tvg-chno="501" tvg-name="Food Food" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Food_Food.png" group-title="Lifestyle",Food Food
 https://mumt03.tangotv.in/Dsly5z3HFOODFOOD/index.m3u8
