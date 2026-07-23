@@ -118,7 +118,7 @@ https://aasthaott.akamaized.net/110923/smil:aasthaprime1.smil/master.m3u8
 https://mumt03.tangotv.in/Dsly5z3HFOODFOOD/index.m3u8
 #EXTINF:-1 tvg-id="ShemarooFilmiGaane.in@HD" tvg-chno="502" tvg-name="Shemaroo Filmi Gaane" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/channel/0d5b07555b2d4415aa9f145273095ed7.png" group-title="Lifestyle",Shemaroo Filmi Gaane •down
 http://103.213.31.109:90/ShemarooFilmiGaane/playlist.m3u8
-#EXTINF:-1 tvg-id="B4UMusic.in@India" tvg-chno="503" tvg-name="B4U Music" tvg-logo="https://dtil.tmsimg.com/assets/s158141_ld_h15_aa.png?lock=720x540" group-title="Lifestyle",B4U Music
+#EXTINF:-1 tvg-id="B4UMusic.in@India" tvg-chno="503" tvg-name="B4U Music" tvg-logo="https://dtil.tmsimg.com/assets/s158141_ld_h15_aa.png?lock=720x540" group-title="Lifestyle",B4U Music •down
 https://cdn-2.pishow.tv/live/415/master.m3u8
 #EXTINF:-1 tvg-id="ZeeZest.in@HD" tvg-chno="504" tvg-name="Zee Zest" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_ZEST/images/LOGO_HD/LOGO_HD_image.png" group-title="Lifestyle",Zee Zest •down
 http://103.72.101.252:8080/live/2757.m3u8
