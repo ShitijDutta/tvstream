@@ -63,13 +63,13 @@ https://cdn-1.pishow.tv/live/1011/master.m3u8
 http://103.175.73.12:8080/live/271/271_0.m3u8
 #EXTINF:-1 tvg-id="SonyWah.in@SD" tvg-chno="213" tvg-name="Sony Wah" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_WAH/images/LOGO_HD/image.png" group-title="Movies",Sony Wah •down
 https://sl.vodep39240327.workers.dev/channel/SONY+WAH.m3u8
-#EXTINF:-1 tvg-id="StarGoldRomance.in@SD" tvg-chno="214" tvg-name="Star Gold Romance" tvg-logo="https://i.imgur.com/gSWv9U3.png" group-title="Movies",Star Gold Romance •down
+#EXTINF:-1 tvg-id="StarGoldRomance.in@SD" tvg-chno="214" tvg-name="Star Gold Romance" tvg-logo="https://i.imgur.com/gSWv9U3.png" group-title="Movies",Star Gold Romance
 http://103.253.18.58:8000/play/a017
 #EXTINF:-1 tvg-id="StarGoldThrills.in@SD" tvg-chno="215" tvg-name="Star Gold Thrills" tvg-logo="https://i.imgur.com/azqtpYh.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" http-referrer="http://www.jiotv.com" group-title="Movies",Star Gold Thrills
 #EXTVLCOPT:http-referrer=http://www.jiotv.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://103.157.248.140:8000/play/a00b/index.m3u8
-#EXTINF:-1 tvg-id="StarGoldSelect.in@HD" tvg-chno="216" tvg-name="Star Gold Select" tvg-logo="https://i.imgur.com/U7eiuqv.png" group-title="Movies",Star Gold Select •down
+#EXTINF:-1 tvg-id="StarGoldSelect.in@HD" tvg-chno="216" tvg-name="Star Gold Select" tvg-logo="https://i.imgur.com/U7eiuqv.png" group-title="Movies",Star Gold Select
 http://103.253.18.58:8000/play/a02u
 #EXTINF:-1 tvg-id="ZeeCineClassic.in@SD" tvg-chno="217" tvg-name="Zee Classic" tvg-logo="https://i.imgur.com/QCRhS1n.png" group-title="Movies",Zee Classic
 https://amg00862-amg00862c8-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c8-amgplt0173/playlist.m3u8
