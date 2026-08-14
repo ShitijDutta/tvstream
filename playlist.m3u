@@ -4,8 +4,6 @@ http://202.70.146.135:8000/play/a009/index.m3u8
 #EXTINF:-1 tvg-id="Colors.in@HD" tvg-chno="102" tvg-name="Colors" tvg-logo="https://i.imgur.com/M8uCJ0D.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Serials",Colors
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://59.103.38.46:8000/play/a00b/index.m3u8
-#EXTINF:-1 tvg-id="ZeeTV.in@HD" tvg-chno="103" tvg-name="Zee TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TV/images/LOGO_HD/LOGO_HD_image.png" group-title="Serials",Zee TV
-https://trs1.aynaott.com/zeetvhd/index.m3u8
 #EXTINF:-1 tvg-id="SonyEntertainmentTelevision.in@HD" tvg-chno="104" tvg-name="Sony TV" tvg-logo="https://dtil.tmsimg.com/assets/s159096_ld_h15_aa.png?lock=720x540" group-title="Serials",Sony TV
 http://38.96.178.205/SONYHD/index.m3u8
 #EXTINF:-1 tvg-id="StarBharat.in@SD" tvg-chno="105" tvg-name="Star Bharat" tvg-logo="https://i.imgur.com/Q8ajPij.png" group-title="Serials",Star Bharat
@@ -35,7 +33,7 @@ https://cc-czbq30x55knit.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da6
 #EXTINF:-1 tvg-id="DDNational.in@HD" tvg-chno="116" tvg-name="DD National" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/DD%20National.png" group-title="Serials",DD National
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/40492a64c1db4a1385ba1a397d357d3a/index.m3u8
 #EXTINF:-1 tvg-id="ZeeCinema.in@SD" tvg-chno="201" tvg-name="Zee Cinema" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CINEMA/images/LOGO_HD/LOGO_HD_image.png" group-title="Movies",Zee Cinema
-https://trs1.aynaott.com/ZeeCinemaHD/index.m3u8
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/NGCHD/default/NGCHD.m3u8
 #EXTINF:-1 tvg-id="SonyMax2.in@SD" tvg-chno="202" tvg-name="Sony Max 2" tvg-logo="https://i.imgur.com/gqUYk6C.png" group-title="Movies",Sony Max 2 •down
 http://149.71.34.166:8000/play/a00z/index.m3u8
 #EXTINF:-1 tvg-id="StarGold2.in@SD" tvg-chno="203" tvg-name="Star Gold 2" tvg-logo="https://i.imgur.com/G0ZfzZr.png" group-title="Movies",Star Gold 2
