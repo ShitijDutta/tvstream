@@ -46,10 +46,9 @@ http://103.175.73.12:8080/live/53/53_0.m3u8
 #EXTINF:-1 tvg-id="GoldminesBollywood.in@SD" tvg-chno="206" tvg-name="Goldmines Bollywood" tvg-logo="https://i.imgur.com/6mNQ9mM.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" group-title="Movies",Goldmines Bollywood •down
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 http://103.175.73.12:8080/live/52/52_0.m3u8
-#EXTINF:-1 tvg-id="B4UMovies.in@India" tvg-chno="207" tvg-name="B4U Movies" tvg-logo="https://i.imgur.com/M9kMFJl.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" group-title="Movies",B4U Movies •down
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-http://103.175.73.12:8080/live/43/43_0.m3u8
-#EXTINF:-1 tvg-id="ZeeBollywood.in@SD" tvg-chno="208" tvg-name="Zee Bollywood" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022T6DM.png?lock=720x540" group-title="Movies",Zee Bollywood •down
+#EXTINF:-1 tvg-id="B4UMovies.in@APAC" tvg-chno="207" tvg-name="B4U Movies" tvg-logo="https://i.imgur.com/M9kMFJl.png" group-title="Movies",B4U Movies
+https://s3.itcnbd.live/channel/129d01070adb9ee3.m3u8
+#EXTINF:-1 tvg-id="ZeeBollywood.in@SD" tvg-chno="208" tvg-name="Zee Bollywood" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022T6DM.png?lock=720x540" group-title="Movies",Zee Bollywood
 https://s3.itcnbd.live/channel/a5979fd53c01d1b2.m3u8
 #EXTINF:-1 tvg-id="ColorsCineplex.in@HD" tvg-chno="209" tvg-name="Colors Cineplex" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_CINEPLEX_HD/images/LOGO_HD/image.png" group-title="Movies",Colors Cineplex •down
 http://149.71.34.166:8000/play/a00b/index.m3u8
