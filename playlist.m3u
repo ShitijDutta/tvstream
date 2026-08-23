@@ -8,7 +8,7 @@ http://59.103.38.46:8000/play/a00b/index.m3u8
 http://38.96.178.205/SONYHD/index.m3u8
 #EXTINF:-1 tvg-id="StarBharat.in@SD" tvg-chno="105" tvg-name="Star Bharat" tvg-logo="https://i.imgur.com/Q8ajPij.png" group-title="Serials",Star Bharat
 http://103.253.18.58:8000/play/a00u
-#EXTINF:-1 tvg-id="AndTV.in@International" tvg-chno="106" tvg-name="And TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDTV/images/LOGO_HD/LOGO_HD_image.png" group-title="Serials",And TV •down
+#EXTINF:-1 tvg-id="AndTV.in@International" tvg-chno="106" tvg-name="And TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDTV/images/LOGO_HD/LOGO_HD_image.png" group-title="Serials",And TV
 https://amg01117-amg01117c1-amgplt0029.playout.now3.amagi.tv/playlist/amg01117-amg01117c1-amgplt0029/playlist.m3u8
 #EXTINF:-1 tvg-id="DangalTV.in@SD" tvg-chno="107" tvg-name="Dangal" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DANGAL/images/LOGO_HD/image.png" group-title="Serials",Dangal •down
 http://103.213.31.109:90/Dangal/playlist.m3u8
