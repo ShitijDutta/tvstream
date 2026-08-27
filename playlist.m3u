@@ -65,7 +65,7 @@ http://103.175.73.12:8080/live/271/271_0.m3u8
 https://sl.vodep39240327.workers.dev/channel/SONY+WAH.m3u8
 #EXTINF:-1 tvg-id="StarGoldRomance.in@SD" tvg-chno="214" tvg-name="Star Gold Romance" tvg-logo="https://i.imgur.com/gSWv9U3.png" group-title="Movies",Star Gold Romance
 http://103.253.18.58:8000/play/a017
-#EXTINF:-1 tvg-id="StarGoldThrills.in@SD" tvg-chno="215" tvg-name="Star Gold Thrills" tvg-logo="https://i.imgur.com/azqtpYh.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" http-referrer="http://www.jiotv.com" group-title="Movies",Star Gold Thrills •down
+#EXTINF:-1 tvg-id="StarGoldThrills.in@SD" tvg-chno="215" tvg-name="Star Gold Thrills" tvg-logo="https://i.imgur.com/azqtpYh.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" http-referrer="http://www.jiotv.com" group-title="Movies",Star Gold Thrills
 #EXTVLCOPT:http-referrer=http://www.jiotv.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://103.157.248.140:8000/play/a00b/index.m3u8
