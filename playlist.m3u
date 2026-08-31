@@ -6,7 +6,7 @@ http://202.70.146.135:8000/play/a009/index.m3u8
 http://59.103.38.46:8000/play/a00b/index.m3u8
 #EXTINF:-1 tvg-id="SonyEntertainmentTelevision.in@HD" tvg-chno="104" tvg-name="Sony TV" tvg-logo="https://dtil.tmsimg.com/assets/s159096_ld_h15_aa.png?lock=720x540" group-title="Serials",Sony TV
 http://38.96.178.205/SONYHD/index.m3u8
-#EXTINF:-1 tvg-id="StarBharat.in@SD" tvg-chno="105" tvg-name="Star Bharat" tvg-logo="https://i.imgur.com/Q8ajPij.png" group-title="Serials",Star Bharat
+#EXTINF:-1 tvg-id="StarBharat.in@SD" tvg-chno="105" tvg-name="Star Bharat" tvg-logo="https://i.imgur.com/Q8ajPij.png" group-title="Serials",Star Bharat •down
 http://103.253.18.58:8000/play/a00u
 #EXTINF:-1 tvg-id="AndTV.in@International" tvg-chno="106" tvg-name="And TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDTV/images/LOGO_HD/LOGO_HD_image.png" group-title="Serials",And TV •down
 https://amg01117-amg01117c1-amgplt0029.playout.now3.amagi.tv/playlist/amg01117-amg01117c1-amgplt0029/playlist.m3u8
@@ -66,8 +66,8 @@ https://amg00862-amg00862c8-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-a
 https://cdnb4u.wiseplayout.com/B4U_Kadak/master.m3u8
 #EXTINF:-1 tvg-id="SonyPix.in@HD" tvg-chno="220" tvg-name="Sony Pix" tvg-logo="https://i.postimg.cc/Z5G8j67L/PIX-HD-WHITE.png" group-title="Movies",Sony Pix •down
 https://sl.vodep39240327.workers.dev/channel/SONY+PIX+HD.m3u8
-#EXTINF:-1 tvg-id="StarSports1Hindi.in@HD" tvg-chno="601" tvg-name="Star Sports 1 Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_SPORTS_1_HD_HINDI/images/LOGO_HD/image.png" group-title="Sports",Star Sports 1 Hindi
-http://103.253.18.58:8000/play/a00t
+#EXTINF:-1 tvg-id="StarSports1Hindi.in@SD" tvg-chno="601" tvg-name="Star Sports 1 Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_SPORTS_1_HINDI/images/LOGO_HD/image.png" group-title="Sports",Star Sports 1 Hindi
+http://103.253.18.58:8000/play/a03o
 #EXTINF:-1 tvg-id="StarSports1.in@HD" tvg-chno="602" tvg-name="Star Sports 1" tvg-logo="https://i.imgur.com/E5jjKHI.png" group-title="Sports",Star Sports 1
 http://41.205.93.154/STARSPORTS1/index.m3u8
 #EXTINF:-1 tvg-id="StarSports2.in@HD" tvg-chno="603" tvg-name="Star Sports 2" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_SPORTS_2/images/LOGO_HD/image.png" group-title="Sports",Star Sports 2
