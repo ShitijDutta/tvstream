@@ -49,8 +49,8 @@ https://cloudplay-sonyliv.pages.dev/wah.m3u8
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
 http://103.253.18.58:8000/play/a00o
-#EXTINF:-1 tvg-id="ZeeCineClassic.in@SD" tvg-chno="217" tvg-name="Zee Classic" tvg-logo="https://i.imgur.com/QCRhS1n.png" group-title="Movies",Zee Classic
-https://amg00862-amg00862c8-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c8-amgplt0173/playlist.m3u8
+#EXTINF:-1 tvg-id="ZeeClassic.in@SD" tvg-chno="217" tvg-name="Zee Classic" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CLASSIC/images/LOGO_HD/LOGO_HD_image.png" group-title="Movies",Zee Classic •down
+http://103.72.101.252:8080/live/1691.m3u8
 #EXTINF:-1 tvg-id="B4UKadak.in@SD" tvg-chno="218" tvg-name="B4U Kadak" tvg-logo="https://dtil.tmsimg.com/assets/s142695_ld_h15_aa.png?lock=720x540" group-title="Movies",B4U Kadak
 https://streams.tangotv.in/B4UKADAK/ORIGIN/index.m3u8
 #EXTINF:-1 tvg-id="SonyPix.in@HD" tvg-chno="220" tvg-name="Sony Pix" tvg-logo="https://i.postimg.cc/Z5G8j67L/PIX-HD-WHITE.png" group-title="Movies",Sony Pix
