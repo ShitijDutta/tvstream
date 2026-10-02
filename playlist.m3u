@@ -98,7 +98,7 @@ http://103.175.73.12:8080/live/339/master.m3u8
 https://d26idhjf0y1p2g.cloudfront.net/out/v1/cd66dd25b9774cb29943bab54bbf3e2f/index.m3u8
 #EXTINF:-1 tvg-id="AasthaPrime1.in@SD" tvg-chno="404" tvg-name="Aastha Prime" tvg-logo="https://i.imgur.com/LyWSMJS.png" group-title="Bhakti",Aastha Prime
 https://aasthaott.akamaized.net/110923/smil:aasthaprime1.smil/master.m3u8
-#EXTINF:-1 tvg-id="FoodFood.in@SD" tvg-chno="501" tvg-name="Food Food" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Food_Food.png" group-title="Lifestyle",Food Food •down
+#EXTINF:-1 tvg-id="FoodFood.in@SD" tvg-chno="501" tvg-name="Food Food" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Food_Food.png" group-title="Lifestyle",Food Food
 https://mumt03.tangotv.in/Dsly5z3HFOODFOOD/index.m3u8
 #EXTINF:-1 tvg-id="ShemarooFilmiGaane.in@HD" tvg-chno="502" tvg-name="Shemaroo Filmi Gaane" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/channel/0d5b07555b2d4415aa9f145273095ed7.png" group-title="Lifestyle",Shemaroo Filmi Gaane
 https://prod-runn.cdn.runn.tv/shemaroo/stream/smrfgn/playlist.m3u8
