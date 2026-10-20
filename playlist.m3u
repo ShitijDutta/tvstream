@@ -3,8 +3,8 @@
 http://202.70.146.135:8000/play/a009/index.m3u8
 #EXTINF:-1 tvg-id="Colors.in@SD" tvg-chno="102" tvg-name="Colors" tvg-logo="https://i.imgur.com/M8uCJ0D.png" group-title="Serials",Colors
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/sg/YuppTV/ColorsAPAC.m3u8
-#EXTINF:-1 tvg-id="ZeeTV.in@HD" tvg-chno="103" tvg-name="Zee TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TV/images/LOGO_HD/LOGO_HD_image.png" group-title="Serials",Zee TV
-http://41.205.93.154/ZEE-TV/index.m3u8
+#EXTINF:-1 tvg-id="ZeeTV.in@SD" tvg-chno="103" tvg-name="Zee TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TV/images/LOGO_HD/LOGO_HD_image.png" group-title="Serials",Zee TV
+http://103.151.60.162:2122/play/a01u/index.m3u8?hls
 #EXTINF:-1 tvg-id="SonyEntertainmentTelevision.in@HD" tvg-chno="104" tvg-name="Sony TV" tvg-logo="https://dtil.tmsimg.com/assets/s159096_ld_h15_aa.png?lock=720x540" group-title="Serials",Sony TV
 http://38.96.178.205/SONYHD/index.m3u8
 #EXTINF:-1 tvg-id="AndTV.in@International" tvg-chno="106" tvg-name="And TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDTV/images/LOGO_HD/LOGO_HD_image.png" group-title="Serials",And TV
@@ -29,7 +29,7 @@ https://mumbai-edge.smartplaytv.in/DDNational/index.m3u8
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/sg/YuppTV/ZeeCinemaAPAC.m3u8
 #EXTINF:-1 tvg-id="SonyMax2.in@SD" tvg-chno="202" tvg-name="Sony Max 2" tvg-logo="https://i.imgur.com/gqUYk6C.png" group-title="Movies",Sony Max 2
 http://107.167.16.138/sonymax2/index.m3u8?token=test
-#EXTINF:-1 tvg-id="StarGold2.in@HD" tvg-chno="203" tvg-name="Star Gold 2" tvg-logo="https://i.imgur.com/G0ZfzZr.png" group-title="Movies",Star Gold 2
+#EXTINF:-1 tvg-id="StarGold2.in@HD" tvg-chno="203" tvg-name="Star Gold 2" tvg-logo="https://i.imgur.com/G0ZfzZr.png" group-title="Movies",Star Gold 2 •down
 http://103.151.60.162:2122/play/a01v/index.m3u8?hls
 #EXTINF:-1 tvg-id="Goldmines.in@SD" tvg-chno="205" tvg-name="Goldmines" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOLDMINES/images/LOGO_HD/image.png" group-title="Movies",Goldmines
 https://streams.tangotv.in/GOLDMINES/ORIGIN/index.m3u8
@@ -49,7 +49,7 @@ https://sl.vodep39240327.workers.dev/channel/SONY+WAH.m3u8
 http://107.167.16.138/zeeclassic/index.m3u8?token=test
 #EXTINF:-1 tvg-id="B4UKadak.in@SD" tvg-chno="218" tvg-name="B4U Kadak" tvg-logo="https://dtil.tmsimg.com/assets/s142695_ld_h15_aa.png?lock=720x540" group-title="Movies",B4U Kadak
 https://streams.tangotv.in/B4UKADAK/ORIGIN/index.m3u8
-#EXTINF:-1 tvg-id="StarMovies.in@HD" tvg-chno="219" tvg-name="Star Movies" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_MOVIES/images/LOGO_HD/image.png" group-title="Movies",Star Movies
+#EXTINF:-1 tvg-id="StarMovies.in@HD" tvg-chno="219" tvg-name="Star Movies" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_MOVIES/images/LOGO_HD/image.png" group-title="Movies",Star Movies •down
 http://103.185.24.134:3001/Star-Movies/index.m3u8
 #EXTINF:-1 tvg-id="SonyPix.in@HD" tvg-chno="220" tvg-name="Sony Pix" tvg-logo="https://i.postimg.cc/Z5G8j67L/PIX-HD-WHITE.png" group-title="Movies",Sony Pix
 http://103.151.60.162:2122/play/a01d/index.m3u8?hls
