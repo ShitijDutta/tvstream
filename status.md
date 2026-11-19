@@ -1,6 +1,6 @@
 # Channel status
 
-Generated 2026-11-18 20:48 UTC (2026-11-19 02:18 IST).
+Generated 2026-11-19 07:45 UTC (2026-11-19 13:15 IST).
 
 `GEO?` means the checker (which may run outside India) was blocked;
 the stream is still included and usually plays fine from home.
@@ -9,64 +9,64 @@ the stream is still included and usually plays fine from home.
 | # | Channel | Status | Detail | Matched entry | Source |
 |---|---------|--------|--------|---------------|--------|
 | 101 | Star Plus | DEAD | ConnectTimeout | StarPlus (India) HD (1080p) | iptv-org India |
-| 102 | Colors | OK | 23.7 Mbps, 33.7x realtime | Colors (576p) | iptv-org India |
+| 102 | Colors | OK | 34.6 Mbps, 45.3x realtime | Colors (576p) | iptv-org India |
 | 103 | Zee TV | DEAD | ConnectionError | Zee TV HD (1080p) | iptv-org India |
-| 104 | Sony TV | OK | 175.2 Mbps, 56.7x realtime | Sony Entertainment Television HD (1080p) | iptv-org India |
+| 104 | Sony TV | OK | 213.7 Mbps, 69.3x realtime | Sony Entertainment Television HD (1080p) | iptv-org India |
 | 105 | Star Bharat | DEAD | ConnectionError | Star Bharat (India) HD (1080p) | iptv-org India |
 | 106 | And TV | DEAD | not an HLS manifest | &TV International (1080p) | iptv-org Hindi |
-| 107 | Dangal | OK | 38.5 Mbps, 58.8x realtime | Dangal TV (720p) | iptv-org India |
-| 108 | Dangal 2 | OK | 25.7 Mbps, 38.5x realtime | Dangal 2 (720p) | iptv-org India |
+| 107 | Dangal | OK | 6.9 Mbps, 9.9x realtime | Dangal TV (720p) | iptv-org India |
+| 108 | Dangal 2 | OK | 32.5 Mbps, 42.1x realtime | Dangal 2 (720p) | iptv-org India |
 | 109 | Big Magic | NO MATCH | no source entry matched | - | - |
-| 110 | Shemaroo TV | OK | 4.5 Mbps, 1.7x realtime | Shemaroo TV (720p) | iptv-org India |
-| 111 | Shemaroo Umang | OK | 3.8 Mbps, 0.7x realtime | Shemaroo Umang (720p) | iptv-org India |
-| 112 | Manoranjan TV | OK | 4.4 Mbps, 2.1x realtime | Manoranjan TV (720p) | iptv-org India |
+| 110 | Shemaroo TV | OK | 3.5 Mbps, 1.3x realtime | Shemaroo TV (720p) | iptv-org India |
+| 111 | Shemaroo Umang | OK | 3.4 Mbps, 0.7x realtime | Shemaroo Umang (720p) | iptv-org India |
+| 112 | Manoranjan TV | OK | 3.4 Mbps, 1.6x realtime | Manoranjan TV (720p) | iptv-org India |
 | 113 | Anmol TV | DEAD | HTTP 404 | Anmol TV (576p) | iptv-org India |
 | 114 | Zee Dil Se | GEO? | HTTP 403 | Zee Dil Se (1080p) | iptv-org India |
-| 115 | Epic TV | OK | 0.0 Mbps, 8.0x realtime | Epic TV Digital (1080p) | iptv-org India |
-| 116 | DD National | OK | speed n/a | DD National (576p) | iptv-org India |
-| 201 | Zee Cinema | OK | 29.0 Mbps, 32.8x realtime | Zee Cinema APAC (720p) | iptv-org Hindi |
+| 115 | Epic TV | OK | 0.0 Mbps, 18.4x realtime | Epic TV Digital (1080p) | iptv-org India |
+| 116 | DD National | OK | 6.9 Mbps, 1.6x realtime | DD National HD (1080p) | iptv-org India |
+| 201 | Zee Cinema | OK | 24.2 Mbps, 45.3x realtime | Zee Cinema APAC (720p) | iptv-org Hindi |
 | 202 | Sony Max 2 | NO MATCH | no source entry matched | - | - |
 | 203 | Star Gold 2 | NO MATCH | no source entry matched | - | - |
 | 204 | Star Utsav Movies | OK | speed n/a | Star Utsav Movies (576p) | iptv-org India |
 | 205 | Goldmines | OK | speed n/a | Goldmines (576p) | iptv-org India |
 | 206 | Goldmines Bollywood | OK | speed n/a | Goldmines Bollywood (576p) | iptv-org India |
-| 207 | B4U Movies | OK | 56.7 Mbps, 70.1x realtime | B4U Movies (1080p) | iptv-org India |
+| 207 | B4U Movies | OK | 87.0 Mbps, 122.8x realtime | B4U Movies (1080p) | iptv-org India |
 | 208 | Zee Bollywood | NO MATCH | no source entry matched | - | - |
-| 209 | Colors Cineplex | OK | 73.7 Mbps, 73.4x realtime | Colors Cineplex (576p) | iptv-org India |
+| 209 | Colors Cineplex | OK | 134.1 Mbps, 172.1x realtime | Colors Cineplex (576p) | iptv-org India |
 | 210 | Zee Action | NO MATCH | no source entry matched | - | - |
-| 211 | Manoranjan Grand | OK | 4.4 Mbps, 2.1x realtime | Manoranjan Grand (720p) | iptv-org India |
+| 211 | Manoranjan Grand | OK | 1.9 Mbps, 1.1x realtime | Manoranjan Grand (720p) | iptv-org India |
 | 212 | Anmol Cinema | NO MATCH | no source entry matched | - | - |
 | 213 | Sony Wah | OK | speed n/a | Sony Wah (576p) | iptv-org India |
 | 214 | Star Gold Romance | NO MATCH | no source entry matched | - | - |
 | 215 | Star Gold Thrills | NO MATCH | no source entry matched | - | - |
 | 216 | Star Gold Select | NO MATCH | no source entry matched | - | - |
 | 217 | Zee Classic | GEO? | HTTP 403 | Zee Cine Classic (1080p) | iptv-org India |
-| 218 | B4U Kadak | OK | 51.1 Mbps, 67.6x realtime | B4U Kadak (1080p) | iptv-org India |
+| 218 | B4U Kadak | OK | 79.1 Mbps, 117.2x realtime | B4U Kadak (1080p) | iptv-org India |
 | 219 | Star Movies | NO MATCH | no source entry matched | - | - |
 | 220 | Sony Pix | NO MATCH | no source entry matched | - | - |
 | 601 | Star Sports 1 Hindi | NO MATCH | no source entry matched | - | - |
 | 602 | Star Sports 1 | NO MATCH | no source entry matched | - | - |
 | 603 | Star Sports 2 | NO MATCH | no source entry matched | - | - |
-| 604 | Sony Sports Ten 3 | OK | 36.6 Mbps, 10.1x realtime | Sony Sports Ten 3 Hindi (1080p) | iptv-org India |
-| 605 | DD Sports | OK | 8.3 Mbps, 18.4x realtime | DD Sports (1080p) | iptv-org India |
+| 604 | Sony Sports Ten 3 | OK | 36.8 Mbps, 10.2x realtime | Sony Sports Ten 3 Hindi (1080p) | iptv-org India |
+| 605 | DD Sports | OK | 9.8 Mbps, 20.6x realtime | DD Sports (1080p) | iptv-org India |
 | 606 | Star Sports Select 1 | NO MATCH | no source entry matched | - | - |
-| 301 | Aaj Tak | OK | 1.1 Mbps, 4.4x realtime | Aaj Tak HD (1080p) | iptv-org India |
-| 302 | ABP News | OK | 1.1 Mbps, 2.9x realtime | ABP News (1080p) | iptv-org India |
-| 303 | India TV | OK | 1.0 Mbps, 2.4x realtime | India TV (1080p) | iptv-org India |
-| 304 | NDTV India | OK | 9.1 Mbps, 2.4x realtime | NDTV India (1080p) | iptv-org India |
-| 305 | Zee News | OK | 12.3 Mbps, 3.7x realtime | Zee News (1080p) | iptv-org India |
-| 306 | News18 India | OK | 20.8 Mbps, 126.0x realtime | News18 India (1080p) | iptv-org India |
+| 301 | Aaj Tak | OK | 1.9 Mbps, 2.7x realtime | Aaj Tak (720p) | iptv-org India |
+| 302 | ABP News | OK | 1.1 Mbps, 2.8x realtime | ABP News (1080p) | iptv-org India |
+| 303 | India TV | OK | 0.9 Mbps, 2.4x realtime | India TV (1080p) | iptv-org India |
+| 304 | NDTV India | OK | 10.0 Mbps, 2.8x realtime | NDTV India (1080p) | iptv-org India |
+| 305 | Zee News | OK | 11.0 Mbps, 3.0x realtime | Zee News (1080p) | iptv-org India |
+| 306 | News18 India | OK | 0.5 Mbps, 3.3x realtime | News18 India (1080p) | iptv-org India |
 | 307 | Republic Bharat | OK | speed n/a | Republic Bharat (1080p) | iptv-org India |
-| 308 | India Today | OK | 35.5 Mbps, 127.0x realtime | India Today (1080p) | iptv-org India |
-| 309 | TV9 Bharatvarsh | OK | 195.9 Mbps, 42.5x realtime | TV9 Bharatvarsh (1080p) | iptv-org India |
-| 310 | DD News | OK | 9.8 Mbps, 2.7x realtime | DD News (1080p) | iptv-org India |
-| 401 | Aastha | OK | 3.9 Mbps, 6.4x realtime | Aastha HD (720p) | iptv-org India |
-| 402 | Aastha Bhajan | OK | 1.7 Mbps, 5.3x realtime | Aastha Bhajan (720p) | iptv-org India |
-| 403 | Sanskar | OK | 6.5 Mbps, 18.4x realtime | Sanskar TV (1080p) | iptv-org India |
-| 404 | Aastha Prime | OK | 3.9 Mbps, 13.2x realtime | Aastha Prime 1 (720p) | iptv-org India |
-| 501 | Food Food | OK | 1.5 Mbps, 4.2x realtime | Food Food (1080p) | iptv-org India |
+| 308 | India Today | OK | 5.7 Mbps, 19.5x realtime | India Today (1080p) | iptv-org India |
+| 309 | TV9 Bharatvarsh | OK | 283.5 Mbps, 62.7x realtime | TV9 Bharatvarsh (1080p) | iptv-org India |
+| 310 | DD News | OK | 7.7 Mbps, 2.0x realtime | DD News HD (1080p) | iptv-org India |
+| 401 | Aastha | OK | 12.0 Mbps, 21.3x realtime | Aastha HD (720p) | iptv-org India |
+| 402 | Aastha Bhajan | OK | 4.0 Mbps, 11.6x realtime | Aastha Bhajan (720p) | iptv-org India |
+| 403 | Sanskar | OK | 1.3 Mbps, 4.0x realtime | Sanskar TV (1080p) | iptv-org India |
+| 404 | Aastha Prime | OK | 10.3 Mbps, 33.5x realtime | Aastha Prime 1 (720p) | iptv-org India |
+| 501 | Food Food | OK | 1.4 Mbps, 4.9x realtime | Food Food (1080p) | iptv-org India |
 | 502 | Shemaroo Filmi Gaane | GEO? | HTTP 403 | Shemaroo Filmi Gaane (1080p) | iptv-org India |
-| 503 | B4U Music | OK | 171.2 Mbps, 70.9x realtime | B4U Music (1080p) | iptv-org India |
+| 503 | B4U Music | OK | 254.0 Mbps, 100.3x realtime | B4U Music (1080p) | iptv-org India |
 | 504 | Zee Zest | NO MATCH | no source entry matched | - | - |
 
 Channels needing attention: **21**
