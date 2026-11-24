@@ -39,7 +39,7 @@ http://163.61.226.31:9981/stream/channelid/1225596390?profile=pass
 http://163.61.226.31:9981/stream/channelid/863672695?profile=pass
 #EXTINF:-1 tvg-id="GoldminesBollywood.in@SD" tvg-chno="206" tvg-name="Goldmines Bollywood" tvg-logo="https://i.imgur.com/6mNQ9mM.png" group-title="Movies",Goldmines Bollywood
 http://163.61.226.31:9981/stream/channelid/1436412639?profile=pass
-#EXTINF:-1 tvg-id="B4UMovies.in@India" tvg-chno="207" tvg-name="B4U Movies" tvg-logo="https://i.imgur.com/M9kMFJl.png" group-title="Movies",B4U Movies
+#EXTINF:-1 tvg-id="B4UMovies.in@India" tvg-chno="207" tvg-name="B4U Movies" tvg-logo="https://i.imgur.com/M9kMFJl.png" group-title="Movies",B4U Movies •down
 https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ColorsCineplex.in@SD" tvg-chno="209" tvg-name="Colors Cineplex" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_CINEPLEX/images/LOGO_HD/image.png" group-title="Movies",Colors Cineplex
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/gb/YuppTV/ColorsCineplexUK.m3u8
@@ -49,7 +49,7 @@ https://cdn.pishow.tv/ott/live/1011/master.m3u8
 http://163.61.226.31:9981/stream/channelid/1743466790?profile=pass
 #EXTINF:-1 tvg-id="ZeeCineClassic.in@SD" tvg-chno="217" tvg-name="Zee Classic" tvg-logo="https://i.imgur.com/QCRhS1n.png" group-title="Movies",Zee Classic
 https://amg00862-amg00862c8-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c8-amgplt0173/playlist.m3u8
-#EXTINF:-1 tvg-id="B4UKadak.in@SD" tvg-chno="218" tvg-name="B4U Kadak" tvg-logo="https://dtil.tmsimg.com/assets/s142695_ld_h15_aa.png?lock=720x540" group-title="Movies",B4U Kadak
+#EXTINF:-1 tvg-id="B4UKadak.in@SD" tvg-chno="218" tvg-name="B4U Kadak" tvg-logo="https://dtil.tmsimg.com/assets/s142695_ld_h15_aa.png?lock=720x540" group-title="Movies",B4U Kadak •down
 https://amg00877-b4unew-amg00877c4-xiaomi-in-5473.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="StarMovies.in@HD" tvg-chno="219" tvg-name="Star Movies" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_MOVIES/images/LOGO_HD/image.png" group-title="Movies",Star Movies •down
 http://116.90.120.149:8000/play/a13a/index.m3u8
@@ -90,5 +90,5 @@ https://aasthaott.akamaized.net/110923/smil:aasthaprime1.smil/master.m3u8
 https://d2lk5u59tns74c.cloudfront.net/out/v1/ffc601b3dc8d41c5b09115702538d75a/index.m3u8
 #EXTINF:-1 tvg-id="ShemarooFilmiGaane.in@HD" tvg-chno="502" tvg-name="Shemaroo Filmi Gaane" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/channel/0d5b07555b2d4415aa9f145273095ed7.png" group-title="Lifestyle",Shemaroo Filmi Gaane
 https://prod-runn.cdn.runn.tv/shemaroo/stream/smrfgn/playlist.m3u8
-#EXTINF:-1 tvg-id="B4UMusic.in@India" tvg-chno="503" tvg-name="B4U Music" tvg-logo="https://dtil.tmsimg.com/assets/s158141_ld_h15_aa.png?lock=720x540" group-title="Lifestyle",B4U Music
+#EXTINF:-1 tvg-id="B4UMusic.in@India" tvg-chno="503" tvg-name="B4U Music" tvg-logo="https://dtil.tmsimg.com/assets/s158141_ld_h15_aa.png?lock=720x540" group-title="Lifestyle",B4U Music •down
 https://amg00877-b4unew-amg00877c3-xiaomi-in-5474.playouts.now.amagi.tv/720p/index.m3u8
